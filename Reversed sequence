@@ -1,0 +1,8 @@
+def reverse_seq(n)
+  arr = Array.new
+  n.times do 
+    arr << n
+    n -= 1
+  end
+  return arr
+end
