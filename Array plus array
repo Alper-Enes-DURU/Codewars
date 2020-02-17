@@ -1,0 +1,9 @@
+def array_plus_array(arr1, arr2)
+  sum = 0
+  a = Array.new
+  a = arr1 + arr2
+  a.each do |x| 
+    sum += x
+  end
+  return sum
+end
