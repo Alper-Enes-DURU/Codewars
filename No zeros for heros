@@ -1,0 +1,9 @@
+def no_boring_zeros(num)
+  while num != 0
+    if num % 10 != 0
+      break
+    end
+    num = num / 10
+  end
+  return num
+end
