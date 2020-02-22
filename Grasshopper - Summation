@@ -1,0 +1,7 @@
+def summation(num)
+  sum = 0
+  (num+1).times do |a|
+    sum += a
+  end
+  return sum
+end
