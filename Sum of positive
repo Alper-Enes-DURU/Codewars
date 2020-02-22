@@ -1,0 +1,11 @@
+def positive_sum(arr)
+  sum = 0
+  if arr
+    arr.each do |x|
+      if x > 0 
+        sum += x
+      end
+    end
+  end
+  return sum
+end
