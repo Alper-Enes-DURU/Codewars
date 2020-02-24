@@ -1,0 +1,9 @@
+def countSheeps array
+  sum = 0
+  array.each do |a|
+    if a == true
+      sum += 1
+    end
+  end
+  return sum
+end
