@@ -1,0 +1,5 @@
+def guess_blue(bs, bp, rs, rp)
+  a = (bs - rs).to_f
+  b = (bs - rs + bp - rp).to_f
+  return a/b
+end
