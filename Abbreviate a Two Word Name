@@ -1,0 +1,4 @@
+def abbrev_name(name)
+  x = name.split
+  return x[0][0].capitalize + "." + x[1][0].capitalize
+end
