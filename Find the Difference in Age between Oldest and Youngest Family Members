@@ -1,0 +1,5 @@
+def difference_in_ages(ages)
+  x = ages.max
+  y = ages.min
+  return [y,x,x-y]
+end
