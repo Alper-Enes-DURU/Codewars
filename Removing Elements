@@ -1,0 +1,5 @@
+def remove_every_other(arr)
+  new_arr = []
+  arr.each_with_index { |val,index| new_arr.push(val) if index%2 == 0}
+  return new_arr
+end
