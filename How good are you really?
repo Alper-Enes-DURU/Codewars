@@ -1,0 +1,8 @@
+def better_than_average(arr, points)
+  avg = arr.sum/arr.size
+  if points > avg
+    return true
+  else
+    return false
+  end
+end
