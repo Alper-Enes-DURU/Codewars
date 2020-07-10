@@ -1,0 +1,5 @@
+def sum_mix(x)
+    sum = 0
+    x.each {|v| sum += v.to_i}
+    return sum
+end
