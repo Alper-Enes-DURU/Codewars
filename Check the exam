@@ -1,0 +1,18 @@
+def check_exam(arr1,arr2)
+  x = arr1.size
+  sum = 0
+  for j in 0...x
+      if arr1[j] == arr2[j]
+        sum += 4
+      elsif arr1[j] == '' || arr2[j] == ''
+        sum += 0
+      else
+        sum -= 1
+      end
+  end
+  if sum < 0
+    return 0
+  else
+    return sum
+  end
+end
