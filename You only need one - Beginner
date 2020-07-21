@@ -1,0 +1,7 @@
+def check(arr,element)
+  if arr.include?(element) == true
+    return true
+  else
+    return false
+  end
+end
